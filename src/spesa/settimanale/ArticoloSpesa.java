@@ -13,7 +13,7 @@ public class ArticoloSpesa {
 	
 	public double calcolaTotaleArticolo()
 	{
-		
+		return prezzoUnitario*quantita;
 	}
 	
 	
@@ -37,7 +37,10 @@ public class ArticoloSpesa {
 		{
 			return a1;
 		}
-		
+		else
+		{
+			return a2;
+		}
 		
 		
 		
